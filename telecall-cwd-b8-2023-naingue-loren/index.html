@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- jquery cdnjs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/b7c5f885e9.js" crossorigin="anonymous"></script>
+    
+    <title>VIP Vape Shop</title>
+
+    <!-- style -->
+    <style>
+        header{
+            background: url(Image/img1.jpg);
+            background-position: center;
+            background-size: cover;
+            min-height: 1000px;
+        }
+        .section{
+            padding-bottom: 4vw;
+            padding-top: 4vw;
+        }
+        @media screen and (max-width:650px) {
+            header{
+                min-height: 500px;
+            }
+        }
+        div.gallery {
+            border: 1px solid #ccc;
+        }
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+        div.description {
+            padding: 15px;
+            text-align: center;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+        @media only screen and 
+        (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+      
+    </style>
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <nav class="nav-warpper transparent">
+            <div class="container">
+                <a href="#" class="brand-logo">VIP Vape Shop</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile"><i class="fa-solid fa-bars"></i></a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#contact us">CONTACT US</a></li>
+                </ul>
+
+                <ul class="sidenav grey darken-4 center" id="mobile"> 
+                    <h4 class="white-text center">Vip Vape Shop</h4>
+                    <li><a href="#" class="waves-effect waves-light white-text">HOME</a></li>
+                    <li><a href="#" class="waves-effect waves-light white-text">ABOUT</a></li>
+                    <li><a href="#" class="waves-effect waves-light white-text">PRODUCTS/SERVICES</a></li>
+                    <li><a href="#" class="waves-effect waves-light white-text">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <br><br>
+    <!-- img with description -->
+    <section class="container section" id="about">
+        <div class="row">
+            <div class="col s12 l6">
+                <img src="Image/img2.png" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6">
+                <h3 class="balck-text">ABOUT</h3>
+                <p>VIP Vape Shop is a premier destination for vaping enthusiasts in the heart of the city. Our lounge offers a welcoming and comfortable space for those looking to enjoy a wide variety of e-liquids, flavors, and devices in a relaxed, social atmosphere. Whether you're a seasoned vaper or just starting out, The Vip Lounge is the place to be.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col s12 l6">
+                <img src="Image/img3.png" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6">
+                <p>We promote responsible vaping and kindly ask patrons to be considerate of others.
+                    VIP Vape Shop is a non-smoking establishment, and vaping is only allowed in designated areas.
+                    Please respect fellow patrons by not clouding up the lounge excessively.
+                    Minors (under 18) are not permitted in the lounge.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col s12 l6">
+                <img src="Image/img4.png" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 l6">
+                <p>Promoting responsible smoking is essential for the well-being of both individuals and the community. As a responsible tobacco retailer, we are committed to providing our customers with information and resources to make informed choices about their smoking habits.</p>
+            </div>
+        </div>
+    </section>
+   
+
+    <!-- Parallax 1st -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="Image/img5.png" class="responsive-img">
+        </div>
+    </div>
+
+    <br> <br>
+    <!-- Products -->
+    <div class="container" id="products">
+        <h3 class="balck-text center">PRODUCTS</h3>
+        <br><br>
+        <h5 class="center">BRANDS</h5>
+    </div>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <a href="#one" class="carousel-item">
+            <img src="Image/img6.webp" alt="">
+            <a href="#one" class="carousel-item">
+                <img src="Image/img7.webp" alt="">
+            </a>
+            <a href="#one" class="carousel-item">
+                <img src="Image/img8.webp" alt="">
+            </a>
+            <a href="#one" class="carousel-item">
+                <img src="Image/img9.webp" alt="">
+            </a>
+            <a href="#one" class="carousel-item">
+                <img src="Image/img10.webp" alt="">
+            </a>
+            <a href="#one" class="carousel-item">
+                <img src="Image/img11.webp" alt="">
+            </a>
+            <a href="#one" class="carousel-item">
+                <img src="Image/img12.webp" alt="">
+            </a>
+            <a href="#one" class="carousel-item">
+                <img src="Image/img13.webp" alt="">
+            </a>
+            <a href="#one" class="carousel-item">
+                <img src="Image/img14.webp" alt="">
+            </a>
+            <a href="#one" class="carousel-item">
+                <img src="Image/img15.webp" alt="">
+            </a>
+        </a>
+    </div>
+    <br> <br>
+
+    <!-- responsive image gallery -->
+    <div class="container">
+        <h5 class="center">NEW ARRIVALS</h5>
+    </div>
+    <br> <br>
+
+   <div class="container">
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Image/img16.webp">
+                <img src="Image/img16.webp" alt="" width="600" height="400">
+            </a>
+            <div class="description">DEVICES
+
+                RELX Infinity Plus – Very Peri
+                
+                ₱1,250.00</div>
+        </div>
+        <a class="btn-small waves-effect waves-light black center">ADD TO CART</a>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Image/img17.webp">
+                <img src="Image/img17.webp" alt="" width="600" height="400">
+            </a>
+            <div class="description">DEVICES
+
+                RELX Infinity Plus – Solar Burst
+                
+                ₱1,250.00</div>
+        </div>
+        <a class="btn-small waves-effect waves-light black center">ADD TO CART</a>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Image/img18.webp">
+                <img src="Image/img18.webp" alt="" width="600" height="400">
+            </a>
+            <div class="description">DEVICES
+
+                RELX Infinity Plus – Rising Tide
+                
+                ₱1,400.00</div>
+        </div>
+        <a class="btn-small waves-effect waves-light black center">ADD TO CART</a>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Image/img19.webp">
+                <img src="Image/img19.webp" alt="" width="600" height="400">
+            </a>
+            <div class="description">DEVICES
+
+                RELX Infinity Plus – Pink Whisper
+                
+                ₱1,400.00</div>
+        </div>
+        <a class="btn-small waves-effect waves-light black center">ADD TO CART</a>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Image/img20.webp">
+                <img src="Image/img20.webp" alt="" width="600" height="400">
+            </a>
+            <div class="description">DEVICES
+
+                RELX Infinity Plus – Lunar Dust
+                
+                ₱1,250.00</div>
+        </div>
+        <a class="btn-small waves-effect waves-light black center">ADD TO CART</a>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Image/img21.webp">
+                <img src="Image/img21.webp" alt="" width="600" height="400">
+            </a>
+            <div class="description">DEVICES
+
+                RELX Infinity Plus – Hidden Pearl</div>
+        </div>
+        <a class="btn-small waves-effect waves-light black center">ADD TO CART</a>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Image/img22.webp">
+                <img src="Image/img22.webp" alt="" width="600" height="400">
+            </a>
+            <div class="description">DEVICES
+
+                RELX Infinity Plus – Black Phantom
+                
+                ₱1,250.00</div>
+        </div>
+        <a class="btn-small waves-effect waves-light black center">ADD TO CART</a>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Image/img27.webp">
+                <img src="Image/img27.webp" alt="" width="600" height="400">
+            </a>
+            <div class="description">DEVICES
+
+                Geekvape T200 (Aegis Touch) Mod – Rainbow
+                
+                ₱2,800.00</div>
+        </div>
+        <a class="btn-small waves-effect waves-light black center">ADD TO CART</a>
+    </div>
+
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Image/img23.webp">
+                <img src="Image/img23.webp" alt="" width="600" height="400">
+            </a>
+            <div class="description">ATOMIZERS
+
+                Italian BoomStick Engineering Reaper 18mm RDA – Blasted Bronze
+                
+                ₱950.00</div>
+        </div>
+        <a class="btn-small waves-effect waves-light black center">ADD TO CART</a>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Image/img24.webp">
+                <img src="Image/img24.webp" alt="" width="600" height="400">
+            </a>
+            <div class="description">ATOMIZERS
+
+                Italian BoomStick Engineering Reaper 18mm RDA – Black
+                
+                ₱950.00</div>
+        </div>
+        <a class="btn-small waves-effect waves-light black center">ADD TO CART</a>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Image/img25.webp">
+                <img src="Image/img25.webp" alt="" width="600" height="400">
+            </a>
+            <div class="description">ATOMIZERS
+
+                Boru Vape Banshee – Rainbow
+                
+                ₱950.00</div>
+        </div>
+        <a class="btn-small waves-effect waves-light black center">ADD TO CART</a>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="Image/img26.webp">
+                <img src="Image/img26.webp" alt="" width="600" height="400">
+            </a>
+            <div class="description">ATOMIZERS
+
+                Hellvape Dead Rabbit V2 RTA 2ml – Blue
+                
+                ₱1,600.00</div>
+        </div>
+        <a class="btn-small waves-effect waves-light black center">ADD TO CART</a>
+    </div>
+
+   </div>
+    <div class="clearfix"></div>
+
+   <br> <br>
+    <!-- parallax 2nd -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="Image/img28.png" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- contact -->
+    <section class="container section" id="contact us">
+        <div class="row">
+            <div class="col s12 l5">
+                <h3 class="balck-text">CONTACT US</h3>
+                <br>
+                <p>We're here to assist you with all your vaping needs. Whether you have questions about our wide selection of e-liquids, need guidance on choosing the perfect vape device, or simply want to share your feedback, our team at VIP Vape Shop is just a message away. We pride ourselves on offering top-notch customer service, and we're committed to ensuring your vaping experience is both enjoyable and satisfying.</p>
+                <p>Contact us via the form, and we'll get back to you promptly. You can also visit our physical store at 123 Vape Street, Laguna, or give us a call at (555) 123-4567 during our operating hours. Your satisfaction is our priority, and we look forward to assisting you with any vaping-related queries or concerns you may have.</p>
+                <br>
+                <p>Hours of Operation:
+                    Mondays - Fridays - 10:00 AM - 8:00 PM
+                    Saturdays & Sundays - 11:00 AM - 9:00 PM</p>
+                <br>
+                <p>Your vaping journey begins here, and we're excited to be a part of it. Thank you for choosing VIP Vape Shop.</p>
+            </div>
+            <div class="col s12 l5 offset-l2">
+                <form action="">
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope prefix"></i>
+                        <input type="email" id="email">
+                        <label for="email">Email Here</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-regular fa-message prefix"></i>
+                        <textarea name="" id="message" class="materialize-textarea"></textarea>
+                        <label for="message">Message Here</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-calendar-day prefix"></i>
+                        <input type="text" id="date" class="datepicker">
+                        <label for="date">Choose your date</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-regular fa-clock prefix"></i>
+                        <input type="text" id="time" class="timepicker">
+                        <label for="time">Choose your time</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class=" col s12 l6">
+                    <h5>VIP Vape Shop</h5>
+                    <p>At VIP Vape Shop, we're more than just a vape shop, we're a community of vaping enthusiasts. Stay in the loop with the latest vaping trends, exclusive offers, and exciting promotions by following us on social media.</p>
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5>CONNECT US</h5>
+                    <ul>
+                        <li><a href="" class="white-text">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>@VIPVapeShop</li>
+                        <li><a href="" class="white-text">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>@VIPVapeShop</li>
+                        <li><a href="" class="white-text">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>@VIPVapeShop</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container center cyan-text"><h6>&copy;VIP Vape Shop</h6></div>
+        </div>
+    </footer>
+    
+    
+   
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    ><script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.carousel').carousel({
+                duration: 200,
+                dist: 10,
+                shift: 10,
+                padding: 10
+            });
+            $('.datepicker').datepicker();
+            $('.timepicker').timepicker();
+            });
+        
+    </script>
+    
+</body>
+</html>
